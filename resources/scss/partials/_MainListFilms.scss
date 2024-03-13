@@ -1,0 +1,31 @@
+.listFilms {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: black;
+gap: 10px;
+padding: 30px;
+
+.btn-absolut{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+
+.cardFilms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: calc( 100% / 6 - 10px );
+
+    h4{
+        margin-top: 6px;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: white;
+        word-wrap: break-word;
+        max-width: 100px;
+    }
+}
+}

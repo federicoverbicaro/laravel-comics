@@ -16,8 +16,11 @@ use App\Http\Controllers\Home\WelcomeController as WelcomeController;
 */
 
 Route::get('/', function () {
+    $films = config('db');
 
-    return view('pages.welcome');
+    return view('pages.ComicsHome', compact('films'));
+
+
 })->name('homePage');
 
 

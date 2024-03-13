@@ -1,11 +1,11 @@
 /*resources/scss/app.scss*/
 @import "bootstrap/scss/bootstrap";
 
-main
-{
-    background-image: url('../img/page_bg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-}
+
+/*impostazione style header*/
+@import 'partials/_header';
+/*impostazione style main*/
+@import 'partials/_Main';
+/*impostazione style mainlistfilms*/
+@import 'partials/MainListFilms';
+

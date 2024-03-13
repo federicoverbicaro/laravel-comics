@@ -1,0 +1,25 @@
+ul {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+
+    a {
+
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+
+        &:hover {
+            border-bottom: 2px solid blue;
+            padding-block: 35px;
+        }
+
+    }
+}
+
+
+.search{
+    margin-left: 15px;
+    border-bottom: 2px solid blue !important;
+    text-align: end;
+}
