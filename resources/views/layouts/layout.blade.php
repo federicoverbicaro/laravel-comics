@@ -23,8 +23,8 @@
 @yield('MainListFilms')
 
 
-
-
+{{-- footer --}}
+@include('componets.Footer')
 
 
 </body>

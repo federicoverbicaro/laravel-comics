@@ -1,0 +1,44 @@
+.bg-img {
+    background-image: url('../images/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.listFooter {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    li {
+        text-align: start;
+
+
+        .comicsFooter {
+            text-transform: capitalize;
+            color: gray;
+        }
+    }
+
+
+
+}
+
+.btn-button{
+    border: 1px solid blue;
+    border-radius: 0;
+
+}
+
+.iconsTetx{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
